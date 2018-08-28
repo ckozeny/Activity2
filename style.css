@@ -1,0 +1,53 @@
+/* This section makes the body bigger and times new roman */
+body {
+    font-size:115%;
+    font-family: "Times New Roman", Times, serif;
+    width: 95%;
+    max-width: 1200px;
+    margin: 15px;
+}    
+/* This modifies my header by centering and making it small caps */
+header {
+    text-align: center;
+    font-variant: small-caps;
+    background-color: blue;
+}
+/* This centers my nav tags */
+nav {
+    text-align: center;
+    margin-bottom:15px;
+}
+/* This makes the nav unordered list small caps */
+nav ul {
+    font-variant: small-caps;
+    list-style-type: none;
+}
+/* This makes the items in the list bold */
+nav ul li {
+    font-weight: bold;
+    display: inline;
+    padding: 0px 10px;
+}
+/* This makes the links be undecorated */
+nav ul li a {
+    text-decoration: none;
+}
+/* When you hover over the links it will be yellow with red background */
+nav ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: red;
+    color: yellow;
+}
+/* This makes the sections with the class information to have a grey background */
+section.information {
+    padding: 0px 10px;
+}
+/* any section with an h2 will be italic and blue */
+section.information h1 {
+    font-style: italic;
+    color: rgb(255,0,0);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
