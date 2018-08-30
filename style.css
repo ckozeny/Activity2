@@ -47,3 +47,7 @@ section.information h1 {
     margin-top: 0px;
     margin-bottom: 10px;
 }
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
