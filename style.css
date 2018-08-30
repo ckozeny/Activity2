@@ -5,12 +5,13 @@ body {
     width: 95%;
     max-width: 1200px;
     margin: 15px;
+    background: grey;
 }    
 /* This modifies my header by centering and making it small caps */
 header {
     text-align: center;
     font-variant: small-caps;
-    background-color: blue;
+    background-color: red;
 }
 /* This centers my nav tags */
 nav {
@@ -37,11 +38,7 @@ nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
     background-color: red;
-    color: yellow;
-}
-/* This makes the sections with the class information to have a grey background */
-section.information {
-    padding: 0px 10px;
+    color: black;
 }
 /* any section with an h2 will be italic and blue */
 section.information h1 {
@@ -50,4 +47,11 @@ section.information h1 {
     margin-top: 0px;
     margin-bottom: 10px;
 }
-
+.image1 {
+    height: 200px;
+    width: 50%;
+}
+.image2 {
+    height: 100px;
+    height: 100%;
+}
