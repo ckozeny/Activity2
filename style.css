@@ -33,25 +33,17 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
-/* When you hover over the links it will be yellow with red background */
+/* When you hover over the links it will be black with red background */
 nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
     background-color: red;
     color: black;
 }
-/* any section with an h2 will be italic and blue */
+/* any section with an h2 will be italic and red */
 section.information h1 {
     font-style: italic;
     color: rgb(255,0,0);
     margin-top: 0px;
     margin-bottom: 10px;
-}
-.image1 {
-    height: 200px;
-    width: 50%;
-}
-.image2 {
-    height: 100px;
-    height: 100%;
 }
